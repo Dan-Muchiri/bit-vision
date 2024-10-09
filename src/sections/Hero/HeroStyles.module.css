@@ -45,6 +45,7 @@
     height: 100%; /* Set the height to 100% */
     object-position: 50% 0%;
     object-fit: contain; /* or cover, depending on your needs */
+    padding: 2rem 0 0;
     display: none; /* Change this conditionally based on screen size */
 }
 .overlay {
