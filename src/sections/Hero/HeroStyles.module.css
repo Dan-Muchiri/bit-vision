@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+}
+
+.sect {
+    background-color: var(--base--dark);
+    color: var(--text--text-light);
+    height: 100vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.back {
+    z-index: 1;
+    pointer-events: none;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    inset: 0;
+}
+
+.backImage {
+    width: 100%;
+    height: 100%;
+    position: relative; /* Added to ensure proper positioning of child elements */
+}
+
+.image {
+    background-color: #0e2246;
+    width: 100%; /* Set the width to 100% */
+    height: 100%; /* Set the height to 100% */
+    object-position: 50% 0%;
+    object-fit: contain; /* or cover, depending on your needs */
+    padding: 6.25rem 2.4rem; /* You may want to remove padding if it conflicts */
+}
+
+.imageSmall {
+    background-color: #0c1f42;
+    width: 100%; /* Set the width to 100% */
+    height: 100%; /* Set the height to 100% */
+    object-position: 50% 0%;
+    object-fit: contain; /* or cover, depending on your needs */
+    display: none; /* Change this conditionally based on screen size */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%); /* Gradient from transparent to dark */
+    z-index: 2; /* Ensure it's above the background images */
+}
+
+/* Example media query to display the small image on smaller screens */
+@media (max-width: 765px) {
+    .image {
+        display: none; /* Hide the large image */
+    }
+    
+    .imageSmall {
+        display: block; /* Show the small image */
+    }
+}

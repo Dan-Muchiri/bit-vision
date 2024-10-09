@@ -1,0 +1,41 @@
+:root {
+  --text--text-light: #f2f5f7;
+  --base--white: white;
+  --base--primary: #008afc;
+  --text--dark: #070d13;
+  --base--dark: #070d13;
+  --base--black: black;
+  --background--bg-dark: #070d13;
+  --text--text-light-secondary: #a6b9c9;
+  --text--text-secondary: #5d7d98;
+  --font--primary: 'Inter', sans-serif;
+  --font--inter-variable: 'Inter Variable', sans-serif;
+  --font--manrope-vf: 'Manrope', sans-serif;
+  --services-hero--reel-border-top: 20px;
+  --services-hero--reel-border-bottom: 8px;
+  --services-hero--platform-padding: 0px
+}
+
+* {
+  box-sizing: border-box
+}
+
+html {
+  height: 100%
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  min-height: 100%;
+  margin: 0;
+  font-family: var(--font--primary);
+  font-size: 16px;
+  line-height: 150%
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block
+}
