@@ -12,6 +12,9 @@ function Hero() {
             <img src={backimage} className={styles.image} alt="Background" />
             <img src={backimagesmall} className={styles.imageSmall} alt="Small Background" />
             <div className={styles.overlay} /> {/* Background overlay */}
+            <div className={styles.heroContent}>
+              <p>Contet</p>
+            </div>
           </div>
         </div>
       </section>

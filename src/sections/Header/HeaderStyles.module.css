@@ -44,7 +44,7 @@
 }
 .nav{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-left: auto;
 }
 /* Navigation Links */
@@ -55,7 +55,7 @@
     font-weight: 500; /* Slightly bold for readability */
     color: #fff;
     border-radius: 20px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 2.5rem;
     padding: 0 .875rem;
@@ -177,9 +177,11 @@
     border: none; /* Remove default border */
 }
 
+
+
 /* Responsive Styles for Smaller Screens */
 @media (max-width: 1024px) {
-    .sub{
+    .sub {
         padding: 20px;
     }
 
@@ -187,44 +189,46 @@
     .nav {
         display: none; /* Hide navigation by default on small screens */
         flex-direction: column; /* Stack items vertically when displayed */
-        gap: 1.5rem; /* Add spacing between items */
+        gap: 0;
         background-color: #070d13; /* Background color for mobile menu */
         position: absolute; /* Make the nav absolute */
         top: 100%; /* Place it below the header */
         left: 0; 
         width: 100%; /* Full width for better touch interaction */
-        padding: 2rem 1rem; /* Add padding for space around links */
+        padding: 0; /* Add padding for space around links */
         z-index: 1000; /* Ensure it stays on top */
     }
 
     .nav a {
         color: white; /* Ensure good contrast */
         text-align: center; /* Center align text */
-        padding: 1rem 0; /* Add padding for better touch interaction */
-        font-size: 18px; /* Increase font size */
+        padding: 32px 25px; /* Add padding for better touch interaction */
+        font-size: 15px; /* Increase font size */
+        border-bottom: rgb(204, 200, 200) solid 0.1px; /* Set a thinner border bottom */
+        border-radius: 0; /* Remove any border-radius */
     }
+    
 
     /* Show Menu When Open */
     .showMenu .nav {
         display: flex; /* Flexbox to display the nav on menu open */
     }
 
-/* Hamburger Menu Icon */
-.menuIcon {
-    display: block; /* Show the hamburger icon */
-    font-weight: 500;
-    font-size: 15px;
-    border-bottom: .5px solid #ffffffcc; /* Add a white bottom border */
-    padding: 8px 15px; /* Add some space between the text/icon and the border */
-    border-bottom-left-radius: 17px; /* Add bottom-left corner radius */
-    border-bottom-right-radius: 17px; /* Add bottom-right corner radius */
-}
+    /* Hamburger Menu Icon */
+    .menuIcon {
+        display: block; /* Show the hamburger icon */
+        font-weight: 500;
+        font-size: 15px;
+        border-bottom: .5px solid #ffffffcc; /* Add a white bottom border */
+        padding: 8px 15px; /* Add some space between the text/icon and the border */
+        border-bottom-left-radius: 17px; /* Add bottom-left corner radius */
+        border-bottom-right-radius: 17px; /* Add bottom-right corner radius */
+    }
 
-
-    .menu{
+    .menu {
         display: flex;
         align-items: center;
-        gap: 5px;
+        justify-content: space-between;
     }
 
     /* Separator Line */
@@ -258,5 +262,6 @@
         padding: 1.5rem 0; /* Adjust padding for mobile */
         font-size: 16px; /* Adjust font size */
         text-align: center; /* Center the text */
+        border-radius: 0; /* Ensure no border-radius */
     }
 }
