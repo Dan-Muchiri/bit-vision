@@ -28,6 +28,7 @@
     width: 100%;
     height: 100%;
     position: relative; /* Added to ensure proper positioning of child elements */
+    z-index: 1;
 }
 
 .image {
@@ -58,12 +59,26 @@
     z-index: 2; /* Ensure it's above the background images */
 }
 
-.heroContent{
-    z-index: 2;
-    justify-content: flex-end;
-    align-items: center;
+.heroContent {
+    z-index: 3; /* Ensure content is above both the overlay and background */
+    display: flex; /* Use flexbox to center content if needed */
+    width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: flex-end;
     position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contentWrapper {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    display: flex;
 }
 
 /* Example media query to display the small image on smaller screens */
