@@ -2,6 +2,8 @@ import React from 'react';
 import styles from "./HeroStyles.module.css";
 import backimage from "../../../public/back.png";
 import backimagesmall from "../../../public/back small.png";
+import { Link } from 'react-router-dom';
+import { IoArrowForward } from 'react-icons/io5'; // Import the arrow icon
 
 function Hero() {
   return (
@@ -16,22 +18,25 @@ function Hero() {
         </div>
         <div className={styles.heroContent}>
           <div className={styles.contentWrapper}>
-          <div>
-            <h1>Award-Winning
-            Marketing Agency</h1>
-            <div>Separator</div>
-            <div>
-              <button>Request a proposal</button>
-              <button>Let's Discuss</button>
+            <div className={styles.leftWords}>
+              <h1>Award-Winning Marketing Agency</h1>
+              <div className={styles.separator}></div>
+              <div className={styles.buttons}>
+                <button className={styles.requestButton}>Request a proposal</button>
+                <Link to="/" className={styles.link}>
+                  Let's Discuss <IoArrowForward />
+                </Link>
+              </div>
+            </div>
+            <div className={styles.rightWords}>
+              <p>Bit Vision</p>
+              <p className={styles.firstP}>[/bɪt vɪʒən/]noun</p>
+              <p>We are Bit Vision, an award-winning Marketing and Web Design Agency that will offer you transparency and creativity.</p>
+              <p className={styles.lastP}>
+                Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs. We provide a range of customized services, including branding, website design & development, SEO, marketing consultation, and more.
+              </p>
             </div>
           </div>
-          <div>
-            <p>Bit Vision</p>
-            <p>[/bɪt vɪʒən/]noun</p>
-            <p>We are Bit Vision, an award-winning Marketing and Web Design Agency that will offer you transparency and creativity.</p>
-            <p>Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs.  We provide a range of customized services, including branding, website design & development, SEO, marketing consultation, and more.</p>
-          </div>
-          </div> 
         </div>
       </section>
     </div>

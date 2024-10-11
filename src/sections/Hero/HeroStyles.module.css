@@ -51,11 +51,11 @@
 }
 .overlay {
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%); /* Gradient from transparent to dark */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 50%); /* Gradient from transparent to dark */
     z-index: 2; /* Ensure it's above the background images */
 }
 
@@ -80,6 +80,101 @@
     width: 100%;
     display: flex;
 }
+
+.rightWords{
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.rightWords p{
+    margin: 8px 0;
+    line-height: 1.56em;
+    letter-spacing: -.01em;
+    font-weight: 400;
+}
+
+.lastP{
+    font-size: 17px;
+}
+.firstP{
+    font-size: 17px;
+    color: #ffffffa3;
+}
+
+.leftWords{
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.leftWords h1{
+    letter-spacing: .01em;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 0;
+}
+.separator{
+    background-color: #ffffff1f;
+    width: 50%;
+    height: 1px;
+    min-height: 1px;
+    margin: 40px 0;
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+}
+.requestButton {
+    background-color: var(--base--primary);
+    color: var(--text--text-light);
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    transition: background-color 0.2s;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    position: relative; /* Make this button the relative parent */
+    cursor: pointer;
+}
+
+.requestButton:hover {
+    background-color: #0070cc;
+}
+
+.buttons a {
+    display: flex;
+    gap: 40px; /* Initial gap between text and icon */
+    text-decoration: none;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0;
+    font-size: 16px;
+    transition: background-color .5s, border-bottom .5s, gap .5s; /* Add transition for gap */
+    position: relative;
+    border-bottom: 1px solid #ffffff1f;
+}
+
+.buttons a:hover {
+    border-bottom: 1px solid white; /* Change border to white on hover */
+    gap: 55px; /* Increase gap on hover */
+}
+
+
 
 /* Example media query to display the small image on smaller screens */
 @media (max-width: 765px) {
