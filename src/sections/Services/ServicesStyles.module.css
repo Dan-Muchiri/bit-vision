@@ -481,4 +481,79 @@ background-color: #94ef00;
         font-size: 15px;
         color: black;
     }
+    /* Adjust container to flex column layout */
+    .container {
+        padding: 50px 20px; /* Reduce padding for smaller screens */
+    }
+    
+    .serviceGrid {
+        display: block; /* Remove grid layout */
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .left, .right {
+        max-width: 100%; /* Make both sides take full width */
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .left {
+        position: static; /* Remove sticky positioning */
+        top: auto; /* Reset top position */
+        max-width: 100%; /* Make the left section take full width */
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .left p{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .right {
+        flex-direction: column; /* Stack the right content in column */
+    }
+    .serviceBox {
+        padding: 24px;
+    }
+    
+    .heading{
+        display: none;
+    }
+    .title, .title2{
+        margin-bottom: 10px;
+    }
+    .title a, .title2 a{
+        font-size: 23px;
+    }
+
+    /* Adjust the button alignment */
+    .buttons {
+        flex-direction: column;
+        align-items: flex-start; /* Center the buttons on smaller screens */
+    }
+
+    .para p{
+        font-size:15px;
+    }
+    .workWrapper{
+        display: none;
+    }
+    .serviceTags a{
+        font-size: 10px;
+        align-self: flex-start;
+    }
+
+    .serviceSet2 {
+        grid-template-columns: 1fr; /* Stack items in one column */
+        grid-row-gap: 16px; /* Add space between items */
+    }
+
+    .smallBox {
+        padding: 20px; /* Reduce padding for smaller boxes */
+    }
 }
