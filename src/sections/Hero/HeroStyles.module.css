@@ -84,14 +84,14 @@
 .rightWords{
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 30rem;
+    max-width: 29rem;
     display: flex;
     flex-direction: column;
     font-size: 18px;
 }
 
 .rightWords p{
-    margin: 8px 0;
+    margin: 7px 0;
     line-height: 1.56em;
     letter-spacing: -.01em;
     font-weight: 400;
@@ -116,7 +116,7 @@
 
 .leftWords h1{
     letter-spacing: -.01em;
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 600;
     line-height: 1.2em;
     margin: 0;
