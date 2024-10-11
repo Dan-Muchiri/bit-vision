@@ -7,7 +7,7 @@
     color: var(--text--text-light);
     height: 100vh;
     padding-top: 4rem;
-    padding-bottom: 3.8rem;
+    padding-bottom: 3.7rem;
     position: relative;
     overflow: hidden;
 }
@@ -176,8 +176,12 @@
 
 
 
-/* Example media query to display the small image on smaller screens */
+/* Media query to hide the rightWords section on smaller screens */
 @media (max-width: 765px) {
+    .rightWords {
+        display: none; /* Hide the rightWords section */
+    }
+    
     .image {
         display: none; /* Hide the large image */
     }
@@ -185,4 +189,8 @@
     .imageSmall {
         display: block; /* Show the small image */
     }
+    .leftWords h1 {
+        font-size: 2.5rem; /* Reduce the size of h1 on small screens */
+    }
 }
+
