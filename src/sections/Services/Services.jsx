@@ -192,6 +192,84 @@ function Services() {
                                 </div>
                             </div>
                         </div>
+                        <div className={styles.serviceSet2}>
+                            <div className={styles.smallBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title2}>
+                                        <div className={styles.indicator5}></div>
+                                        <Link to="/" className={styles.link}>
+                                        Consultation & Audit
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>Tailored solutions for your business through one-on-one personalized sessions.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <Link to="/" className={styles.webLink}>
+                                        Learn more  <IoArrowForward />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className={styles.smallBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title2}>
+                                        <div className={styles.indicator6}></div>
+                                        <Link to="/" className={styles.link}>
+                                        Graphic Design
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>Impactful marketing visuals and illustrations that elevate brand recognition.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <Link to="/" className={styles.webLink}>
+                                        Learn more  <IoArrowForward />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className={styles.smallBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title2}>
+                                        <div className={styles.indicator7}></div>
+                                        <Link to="/" className={styles.link}>
+                                        Content Marketing
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>Unique content that adds value, boosts organic reach, and engages your audience.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <Link to="/" className={styles.webLink}>
+                                        Learn more  <IoArrowForward />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className={styles.smallBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title2}>
+                                        <div className={styles.indicator8}></div>
+                                        <Link to="/" className={styles.link}>
+                                        User Interface & User Experience
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>User-centric designs ensuring intuitive and satisfying digital experiences.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <Link to="/" className={styles.webLink}>
+                                        Learn more  <IoArrowForward />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
