@@ -222,7 +222,7 @@
         display: block; /* Show the hamburger icon */
         font-weight: 500;
         font-size: 15px;
-        border-bottom: .5px solid #ffffffcc; /* Add a white bottom border */
+        border-bottom: .5px solid #ffffff1f; /* Add a white bottom border */
         padding: 8px 15px; /* Add some space between the text/icon and the border */
         border-bottom-left-radius: 17px; /* Add bottom-left corner radius */
         border-bottom-right-radius: 17px; /* Add bottom-right corner radius */
@@ -232,6 +232,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 3px;
     }
 
     /* Separator Line */
