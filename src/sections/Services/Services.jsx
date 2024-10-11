@@ -2,6 +2,8 @@ import React from 'react'
 import styles from "./ServicesStyles.module.css"
 import { Link } from 'react-router-dom';
 import { IoArrowForward } from 'react-icons/io5'; // Import the arrow icon
+import seoImage from "../../../public/seo.svg"
+import workImage from "../../../public/workImage.webp"
 
 function Services() {
   return (
@@ -66,6 +68,126 @@ function Services() {
                                     </Link>
                                     <Link to="/" className={styles.workLink}>
                                         VIEW OUR WORK
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className={styles.serviceBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title2}>
+                                        <div className={styles.indicator2}></div>
+                                        <Link to="/" className={styles.link}>
+                                            SEO
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>Optimizing your online presence requires a strategic approach, and our SEO experts ensure your website not only climbs the search rankings but also engages your target audience effectively. With a deep understanding of search algorithms and user behavior, we tailor SEO solutions that drive results, helping your brand stand out.</p>
+                                    </div>
+                                    <img className={styles.seoImage} src={seoImage} alt='SEO Image'/>
+                                    <div className={styles.separator}></div>
+                                    <div className={styles.cta}>
+                                    <Link to="/" className={styles.webLink}>
+                                        See Plans <IoArrowForward />
+                                    </Link>
+                                </div>
+                                </div>
+                            </div>
+                            <div className={styles.workWrapper}>
+                                <div className={styles.workItem}>
+                                    <div className={styles.workProject}>
+                                        <img className={styles.workImage} src={workImage} alt="Work Image"/>
+                                        <div className={styles.workInfo}>
+                                            <div className={styles.workInfoMain}>
+                                                <div className={styles.workTitle}>
+                                                    <p className={styles.featuredwork}>Featured Work</p>
+                                                    <div className={styles.workSubTitle}>
+                                                        <div className={styles.workIndicator}></div>
+                                                        <p>Leaside Blvd</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button className={styles.readButton}>Read Case Study <IoArrowForward /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.serviceBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title2}>
+                                        <div className={styles.indicator3}></div>
+                                        <Link to="/" className={styles.link}>
+                                        Visual Branding
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>Shaping your brand's visual identity requires precision, creativity, and expertise, all of which our award-winning team delivers. From designing logos to crafting cohesive color palettes, we ensure your brand communicates effectively across all channels. With a focus on creating a distinct and lasting impression, we help your business stand out in the competitive marketplace, leaving a memorable mark wherever your audience encounters it.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.serviceTags}>
+                                    <Link to="/" >
+                                    Logo Design
+                                    </Link>
+                                    <Link to="/" >
+                                    Typography
+                                    </Link>
+                                    <Link to="/" >
+                                    Iconography
+                                    </Link>
+                                    <Link to="/" >
+                                    Brand Style Guide
+                                    </Link>
+                                    <Link to="/" >
+                                    Colour Palette
+                                    </Link>
+                                    <Link to="/" >
+                                    Textures and Patterns
+                                    </Link>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <Link to="/" className={styles.webLink}>
+                                        Learn more  <IoArrowForward />
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className={styles.serviceBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title2}>
+                                        <div className={styles.indicator4}></div>
+                                        <Link to="/" className={styles.link}>
+                                        Brand Research & Strategy
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>Comprehensive brand research and strategy are the foundations of effective branding. Through in-depth analysis of competitors, market trends, and target audiences, we inform strategic decision-making to shape your brand’s future. Our approach includes developing brand personas, tone, voice, and mission statements, ensuring consistent and impactful communication that aligns seamlessly with your business objectives.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.serviceTags}>
+                                    <Link to="/" >
+                                    Brand Positioning
+                                    </Link>
+                                    <Link to="/" >
+                                    Competitor Analysis
+                                    </Link>
+                                    <Link to="/" >
+                                    Market Trend Analysis
+                                    </Link>
+                                    <Link to="/" >
+                                    Brand Messaging Framework
+                                    </Link>
+                                    <Link to="/" >
+                                    Colour Palette
+                                    </Link>
+                                    <Link to="/" >
+                                    Brand Voice and Tone
+                                    </Link>
+                                    <Link to="/" >
+                                    Brand Value and Promise
+                                    </Link>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <Link to="/" className={styles.webLink}>
+                                        Learn more  <IoArrowForward />
                                     </Link>
                                 </div>
                             </div>
