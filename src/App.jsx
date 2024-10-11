@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hero from './sections/Hero/Hero'
 import Header from './sections/Header/Header'
+import Services from './sections/Services/Services';
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
     <Router>
       <Header/>
       <Hero/>
+      <Services/>
     </Router>  
     </>
   )

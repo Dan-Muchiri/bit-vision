@@ -101,7 +101,7 @@
     transition: background-color 0.2s ease-in-out;
     padding: 2rem 1rem; /* Adjust padding to fit the dropdown width */
     font-weight: 400;
-    border-bottom: 1px solid rgb(218, 212, 212); /* Apply border-bottom to separate links */
+    border-bottom: 1px solid #ffffff1f; /* Apply border-bottom to separate links */
     border-radius: 0; /* Remove any border-radius from the links */
 }
 

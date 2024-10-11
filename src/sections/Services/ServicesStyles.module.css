@@ -1,0 +1,26 @@
+.rightWords{
+    display: none;
+}
+
+@media (max-width: 765px) {
+    .rightWords{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f2f3f5;
+        padding: 60px 20px;
+    }
+    .firstP{
+        color: #000000a3;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .middleP{
+        color: black;
+        font-size: 17px;
+    }
+    .lastP{
+        font-size: 15px;
+        color: black;
+    }
+}
