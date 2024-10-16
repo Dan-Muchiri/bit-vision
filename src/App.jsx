@@ -5,6 +5,7 @@ import Header from './sections/Header/Header'
 import Services from './sections/Services/Services';
 import Clients from './sections/Clients/Clients';
 import Featured from './sections/Featured/Featured';
+import Industries from './sections/Industries/Industries';
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       <Services/>
       <Clients/>
       <Featured/>
+      <Industries/>
     </Router>  
     </>
   )
