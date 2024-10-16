@@ -297,3 +297,100 @@
     line-height: 1.56em;
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 20px;
+    }
+
+    .wrapper {
+        display: block; /* Remove grid layout */
+        margin: 0;
+        padding: 0;
+    }
+
+    .left, .right {
+        max-width: 100%; /* Make both sides take full width */
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .left {
+        position: static; /* Remove sticky positioning */
+        top: auto; /* Reset top position */
+        max-width: 100%; /* Make the left section take full width */
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .leftP1 {
+        font-size: 1.25rem;
+    }
+
+    .leftP {
+        font-size: 1rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .requestButton, .readButton {
+        height: 2.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        font-size: 14px;
+    }
+
+    .right {
+        flex-flow: column;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .projectList {
+        grid-column-gap: 1.06667rem;
+        grid-row-gap: 1.06667rem;
+    }
+
+    .item, .item2, .item3, .item4, .item5, .item6, .item7, .item8{
+        position: static; /* Remove sticky positioning */
+        top: auto; /* Reset top position */
+        max-width: 100%;
+    }
+
+    .projectCard {
+        border-radius: 0.25rem;
+    }
+
+    .cardDetails {
+        padding: 4rem 1.5rem 1.5rem;
+    }
+
+
+    .workTitle {
+        flex-flow: column;
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+    }
+
+    .workSubTitleP1 {
+        font-size: 1.5rem;
+    }
+
+    .workSubTitleP2 {
+        display: none;
+    }
+
+    .caption, .featuredcap {
+        font-size: 0.65rem;
+        height: 1.5rem;
+    }
+}
