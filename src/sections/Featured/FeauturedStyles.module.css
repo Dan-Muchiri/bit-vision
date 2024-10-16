@@ -1,0 +1,299 @@
+.container{
+    width: 100%;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+.wrapper{
+    grid-column-gap: 8rem;
+    grid-row-gap: 8rem;
+    grid-template-rows: auto;
+    grid-template-columns: 19.25rem 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    place-items: start stretch;
+    display: grid;
+    width: 100%;
+    max-width: 120rem;
+    min-height: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: relative;
+    z-index: 24;
+}
+.left{
+    position: sticky;
+    top: 7.5rem;
+}
+.titleBlock{
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.caption{
+    background-color: #eef0f3;
+    border-width: 0;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1em;
+    grid-column-gap: .375rem;
+    grid-row-gap: .375rem;
+    border: 1px solid #ffffff29;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 1.75rem;
+    padding-left: .875rem;
+    padding-right: .875rem;
+    display: flex;
+    position: relative;
+}
+
+.leftP1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.24em;
+    color: black;
+    margin: 0;
+}
+
+.leftP{
+    letter-spacing: -.008em;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.56em;
+    color: #070d137a;
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.requestButton, .readButton {
+    background-color: var(--base--primary);
+    color: var(--text--text-light);
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 2.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: background-color 0.2s;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    position: relative; /* Make this button the relative parent */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+}
+.readButton{
+    background-color: #ffffff14;
+}
+
+.requestButton:hover {
+    background-color: #0070cc;
+    gap: 30px;
+}
+
+.buttons a, .webLink {
+    display: flex;
+    gap: 25px; /* Initial gap between text and icon */
+    text-decoration: none;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0;
+    font-size: 15px;
+    transition: background-color .5s, border-bottom .5s, gap .5s; /* Add transition for gap */
+    position: relative;
+    border-bottom: 1px solid #1413131f;
+}
+
+.buttons a:hover, .webLink:hover {
+    border-bottom: 1px solid black; /* Change border to white on hover */
+    gap: 30px; /* Increase gap on hover */
+}
+
+.right{
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 90rem;
+    margin-left: auto;
+    display: flex;
+    grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
+.heading{
+    letter-spacing: -.02em;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 0;
+}
+.projectsContainer{
+    width: 100%;
+}
+.projectList{
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+}
+.item{
+    top: 6rem;
+    width: 100%;
+    position: sticky;
+}
+.item2{
+    top: 7rem;
+    width: 100%;
+    position: sticky;
+}
+.item3{
+    top: 8rem;
+    width: 100%;
+    position: sticky;
+}
+.item4{
+    top: 9rem;
+    width: 100%;
+    position: sticky;
+}
+.item5{
+    top: 10rem;
+    width: 100%;
+    position: sticky;
+}
+.item6{
+    top: 11rem;
+    width: 100%;
+    position: sticky;
+}
+.item7{
+    top: 12rem;
+    width: 100%;
+    position: sticky;
+}
+.item8{
+    top: 13rem;
+    width: 100%;
+    position: sticky;
+}
+.projectCard{
+    color: var(--text--text-light);
+    border: 1px solid #ffffff1f;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.projectImage{
+    z-index: 1;
+    aspect-ratio: 16 / 9;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.pImage{
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-radius: .5rem;
+    width: 100%;
+    height: 100%;
+}
+.cardDetails{
+    z-index: 2;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 2.5rem;
+    background-image: linear-gradient(#0000, #000000e0);
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 6.875rem 2.5rem 2.5rem;
+    display: flex;
+    position: absolute;
+    inset: auto 0% 0%;
+}
+
+.workInfoMain{
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.workTitle{
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    display: flex;
+}
+.featuredcap{
+    grid-column-gap: .375rem;
+    grid-row-gap: .375rem;
+    border: 1px solid #ffffff29;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 1.75rem;
+    padding-left: .875rem;
+    padding-right: .875rem;
+    display: flex;
+    position: relative;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1em;
+}
+.workSubTitle1{
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    Justify-content: flex-start;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+}
+.workSubTitleP1{
+    letter-spacing: -.006em;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 0;
+}
+.workSubTitleP2{
+    letter-spacing: -.008em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.56em;
+    margin: 0;
+}
