@@ -221,5 +221,92 @@ textarea.invalid {
     gap: 30px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 15px; /* Reduce padding */
+        width: 100%;
+    }
+
+    .wrapper {
+        display: block; /* Remove grid layout */
+        margin: 0; /* Reset margin */
+        padding: 0; /* Reset padding */
+    }
+
+    .left {
+        position: static; /* Remove sticky positioning */
+        max-width: 100%; /* Full width */
+        padding: 0;
+        margin-bottom: 20px; /* Space between sections */
+    }
+
+    .titleBlock {
+        max-width: 100%; /* Full width */
+        margin: 0 auto; /* Center it */
+        padding: 0; /* Reset padding */
+    }
+
+    .caption {
+        font-size: 0.65rem; /* Reduce font size */
+        height: 1.5rem; /* Adjust height */
+    }
+
+    .leftP1 {
+        font-size: 1.5rem; /* Reduce font size */
+    }
+
+    .leftP {
+        font-size: 1rem; /* Reduce font size */
+    }
+
+    .careerBox {
+        max-width: 100%; /* Full width */
+        margin-top: 20px; /* Reduce margin */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .careerBox p {
+        font-size: 15px; /* Reduce font size */
+    }
+
+    .right {
+        max-width: 100%; /* Full width */
+        padding: 0; /* Reset padding */
+    }
+
+    .formGroup {
+        width: 100%; /* Full width */
+    }
+
+    label {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        width: 100%; /* Full width */
+        padding: 0.5rem; /* Reduce padding */
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .formContainer {
+        flex-direction: column; /* Stack inputs vertically */
+        gap: 1rem; /* Reduce gap */
+        width: 100%;
+    }
+
+    .subButton {
+        height: 2.5rem; /* Reduce button height */
+        padding: 1rem; /* Adjust padding */
+        font-size: 14px; /* Reduce font size */
+    }
+    
+    .errorMessage {
+        font-size: 14px; /* Reduce font size */
+    }
+}
 
 
