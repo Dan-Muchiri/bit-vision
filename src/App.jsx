@@ -7,6 +7,7 @@ import Clients from './sections/Clients/Clients';
 import Featured from './sections/Featured/Featured';
 import Industries from './sections/Industries/Industries';
 import CTA from './sections/CTA/CTA';
+import FAQ from './sections/FAQs/FAQ';
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Featured/>
       <Industries/>
       <CTA/>
+      <FAQ/>
     </Router>  
     </>
   )
