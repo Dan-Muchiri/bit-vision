@@ -190,3 +190,64 @@
     display: flex;
     position: static;
 }
+
+@media (max-width: 768px) {
+    .container{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .wrapper {
+        display: flex; /* Change from grid to flex */
+        flex-direction: column; /* Stack children vertically */
+        padding-left: 2rem; /* Reduce padding */
+        padding-right: 2rem; /* Reduce padding */
+        grid-column-gap: 0; /* Remove gap */
+    }
+
+    .left,
+    .right {
+        grid-column: unset; /* Reset grid column properties */
+        width: 100%; /* Full width */
+        position: relative; /* Remove sticky positioning */
+    }
+
+    .left {
+        top: unset; /* Remove top positioning */
+        margin-bottom: 2rem;
+    }
+
+    .right {
+        display: flex; /* Keep right as a flex container */
+        flex-direction: column; /* Stack right section content vertically */
+    }
+
+    .buttons {
+        flex-direction: row; /* Optionally, make buttons row on small screens */
+        justify-content: center; /* Center the buttons */
+        gap: 10px; /* Adjust gap as needed */
+    }
+
+    .caption {
+        justify-content: center; /* Center caption on small screens */
+    }
+
+    .text {
+        font-size: 1rem; /* Adjust text size if needed */
+    }
+
+    .leftP1 {
+        font-size: 1.25rem; /* Adjust title size */
+    }
+
+    .leftP {
+        font-size: 1rem; /* Adjust paragraph size */
+    }
+
+    .list {
+        grid-template-columns: 1fr; /* Set list items to a single column */
+    }
+
+    .item {
+        border-bottom: none; /* Remove bottom border if needed */
+    }
+}
