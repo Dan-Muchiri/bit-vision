@@ -9,6 +9,7 @@ import Industries from './sections/Industries/Industries';
 import CTA from './sections/CTA/CTA';
 import FAQ from './sections/FAQs/FAQ';
 import Contact from './sections/Contact/Contact';
+import Career from './sections/Career/Career';
 
 function App() {
  
@@ -25,6 +26,7 @@ function App() {
       <CTA/>
       <FAQ/>
       <Contact/>
+      <Career/>
     </Router>  
     </>
   )
