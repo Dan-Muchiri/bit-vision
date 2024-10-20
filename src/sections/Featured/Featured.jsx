@@ -17,7 +17,7 @@ function Featured() {
         <div className={styles.wrapper}>
             <div className={styles.left}>
                 <div className={styles.titleBlock}>
-                <div className={styles.caption}>Featured Work</div>
+                    <div className={styles.caption}>Featured Work</div>
                     <p className={styles.leftP1}>Some work we are proud of</p>
                     <p className={styles.leftP}> Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs.</p>
                     <div className={styles.buttons}>
