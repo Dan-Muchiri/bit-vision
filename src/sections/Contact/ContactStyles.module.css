@@ -5,25 +5,19 @@
     padding-bottom: 7.5rem;
 }
 .wrapper{
-    grid-column-gap: 8rem;
-    grid-row-gap: 8rem;
-    grid-template-rows: auto;
-    grid-template-columns: 19.25rem 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    place-items: start stretch;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Ensure both sides stretch to the same height */
+    flex-wrap: wrap;
     width: 100%;
     max-width: 120rem;
-    min-height: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    position: relative;
+    padding: 0 4rem;
 }
 .left{
     position: sticky;
     top: 7.5rem;
+    flex: 1; /* Allow both sides to grow and take equal space */
+    padding: 1rem;
 }
 .titleBlock{
     grid-column-gap: 2rem;
@@ -114,17 +108,18 @@
 }
 
 .right{
-    grid-area: span 1 / span 3 / span 1 / span 3;
-    grid-column-gap: 4rem;
-    grid-row-gap: 4rem;
     flex-flow: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 90rem;
     margin-left: auto;
     display: flex;
-
+    flex: 3;
+    padding: 1rem;
+    min-height: calc(100vh - 15rem); /* Adjust this value as necessary */
+    
+    
 }
 
 .formGroup {
