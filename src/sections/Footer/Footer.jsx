@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from "./FooterStyles.module.css";
 import logo from "/Logo2.png";
-import { Link } from 'react-router-dom';
-import mail from "/mail.webp"
-import map from "/map.webp"
+import mail from "/mail.webp";
+import map from "/map.webp";
 
 function Footer() {
   return (
@@ -18,30 +17,29 @@ function Footer() {
             We are Bit Vision, an award-winning marketing agency that will offer you transparency and creativity. Our goal is to nurture your vision and provide innovative, custom solutions for your marketing needs.
           </p>
         </div>
-        {/* Separator is still inside the wrapper but below the title */}
         <div className={styles.separator}></div>
         <div className={styles.main}>
           <div className={styles.list}>
             <h3>Quick Links</h3>
-            <Link to="/" >Home</Link>
-            <Link to="/" >Our Work</Link>
-            <Link to="/" >About</Link>
-            <Link to="/" >Contact</Link>
+            <a href="#hero">Home</a>
+            <a href="#work">Our Work</a>
+            <a href="#industries">Industries</a>
+            <a href="#contact">Contact</a>
           </div>
           <div className={styles.list}>
             <h3>Services</h3>
             <p>Web Design</p>
-            <p >Branding</p>
-            <p >UI UX</p>
-            <p >Consultation & Audit</p>
-            <p >SEO</p>
+            <p>Branding</p>
+            <p>UI UX</p>
+            <p>Consultation & Audit</p>
+            <p>SEO</p>
           </div>
           <div className={styles.list}>
             <h3>Company</h3>
-            <Link to="/" >Career</Link>
-            <Link to="/" >FAQ</Link>
-            <Link to="/" >About</Link>
-            <Link to="/" >Contact</Link>
+            <a href="#career">Career</a>
+            <a href="#faqs">FAQ</a>
+            <a href="#clients">Clients</a>
+            <a href="#contact">Contact</a>
           </div>
           <div className={styles.list}>
             <h3>Contacts</h3>
@@ -49,7 +47,7 @@ function Footer() {
               <img src={mail} alt='Email icon'/>
               <a href="mailto:info@bitvisionmedia.com">info@bitvisionmedia.com</a>
             </div>
-            <br></br>
+            <br />
             <div className={styles.contactInfo}>
               <img src={map} alt='Map icon'/>
               <div className={styles.info}>
@@ -57,7 +55,7 @@ function Footer() {
                 <p>North York, ON M2J 5B4</p>
               </div>
             </div>
-            <br></br>
+            <br />
             <div className={styles.contactInfo}>
               <img src={map} alt='Map icon'/>
               <div className={styles.info}>
@@ -88,7 +86,7 @@ function Footer() {
           <p>Web Design Chicago</p>
           <p>Web Design New York</p>
           <p>Web Design Houston</p>
-          <p>Web Design montreal</p>
+          <p>Web Design Montreal</p>
         </div>
         <div className={styles.separator}></div>
         <p className={styles.copy}>© All Copyright Reserved by Bit Vision Marketing.</p>

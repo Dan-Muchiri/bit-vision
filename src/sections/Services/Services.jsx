@@ -21,10 +21,12 @@ function Services() {
                     <div className={styles.caption}>Our Services</div>
                     <p >Creative solutions crafted to help you achieve the perfect digital presence</p>
                     <div className={styles.buttons}>
-                        <button className={styles.requestButton}>Request a proposal <IoArrowForward /></button>
-                        <Link to="/" className={styles.link}>
-                        Contact Us <IoArrowForward />
-                        </Link>
+                        <a href="#contact" className={styles.requestButton}>
+                            Request a proposal
+                        </a>
+                        <a href="#contact" className={styles.link}>
+                        Let's Discuss <IoArrowForward />
+                        </a>
                     </div>
                 </div>
                 <div className={styles.right}>
@@ -63,12 +65,12 @@ function Services() {
                                 </div>
                                 <div className={styles.separator}></div>
                                 <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        Web Design Service  <IoArrowForward />
-                                    </Link>
-                                    <Link to="/" className={styles.workLink}>
-                                        VIEW OUR WORK
-                                    </Link>
+                                    <a href="#contact" className={styles.webLink}>
+                                        Web Design Service <IoArrowForward />
+                                    </a>
+                                    <a href="#work" className={styles.workLink}>
+                                    VIEW OUR WORK <IoArrowForward />
+                                    </a>
                                 </div>
                             </div>
                             <div className={styles.serviceBox}>
@@ -85,9 +87,9 @@ function Services() {
                                     <img className={styles.seoImage} src={seoImage} alt='SEO Image'/>
                                     <div className={styles.separator}></div>
                                     <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        See Plans <IoArrowForward />
-                                    </Link>
+                                    <a href="#contact" className={styles.webLink}>
+                                        Learn More <IoArrowForward />
+                                    </a>
                                 </div>
                                 </div>
                             </div>
@@ -105,7 +107,9 @@ function Services() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.readButton}>Read Case Study <IoArrowForward /></button>
+                                            <a href="#work" className={styles.readButton}>
+                                                View work <IoArrowForward />
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -144,9 +148,9 @@ function Services() {
                                 </div>
                                 <div className={styles.separator}></div>
                                 <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        Learn more  <IoArrowForward />
-                                    </Link>
+                                <a href="#contact" className={styles.webLink}>
+                                        Learn More <IoArrowForward />
+                                    </a>
                                 </div>
                             </div>
                             <div className={styles.serviceBox}>
@@ -186,9 +190,9 @@ function Services() {
                                 </div>
                                 <div className={styles.separator}></div>
                                 <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        Learn more  <IoArrowForward />
-                                    </Link>
+                                <a href="#contact" className={styles.webLink}>
+                                        Learn More <IoArrowForward />
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -207,9 +211,9 @@ function Services() {
                                 </div>
                                 <div className={styles.separator}></div>
                                 <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        Learn more  <IoArrowForward />
-                                    </Link>
+                                <a href="#contact" className={styles.webLink}>
+                                        Learn More <IoArrowForward />
+                                    </a>
                                 </div>
                             </div>
                             <div className={styles.smallBox}>
@@ -226,9 +230,9 @@ function Services() {
                                 </div>
                                 <div className={styles.separator}></div>
                                 <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        Learn more  <IoArrowForward />
-                                    </Link>
+                                <a href="#contact" className={styles.webLink}>
+                                        Learn More <IoArrowForward />
+                                    </a>
                                 </div>
                             </div>
                             <div className={styles.smallBox}>
@@ -245,9 +249,9 @@ function Services() {
                                 </div>
                                 <div className={styles.separator}></div>
                                 <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        Learn more  <IoArrowForward />
-                                    </Link>
+                                <a href="#contact" className={styles.webLink}>
+                                        Learn More <IoArrowForward />
+                                    </a>
                                 </div>
                             </div>
                             <div className={styles.smallBox}>
@@ -264,9 +268,9 @@ function Services() {
                                 </div>
                                 <div className={styles.separator}></div>
                                 <div className={styles.cta}>
-                                    <Link to="/" className={styles.webLink}>
-                                        Learn more  <IoArrowForward />
-                                    </Link>
+                                <a href="#contact" className={styles.webLink}>
+                                        Learn More <IoArrowForward />
+                                    </a>
                                 </div>
                             </div>
                         </div>

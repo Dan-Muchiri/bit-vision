@@ -68,9 +68,9 @@ function FAQ() {
             <p className={styles.leftP1}>Answers To Frequently ‍Asked Questions</p>
             <p className={styles.leftP}>Curious about how Brand Vision, a leading Web Design Company and Marketing Agency, operates? Explore our FAQ section for a comprehensive understanding of our services and procedures.</p>
             <div className={styles.buttons}>
-              <Link to="/" className={styles.link}>
+              <a href="#contact" className={styles.link}>
                 Let's Discuss <IoArrowForward />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

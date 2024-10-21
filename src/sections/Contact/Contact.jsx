@@ -42,9 +42,9 @@ function Contact() {
                     </div>
                     <div className={styles.careerBox}>
                         <p>For all career / partnership opportunities, please visit our Careers page</p>
-                        <Link to="/" className={styles.link}>
-                            Career/ Partnership <IoArrowForward />
-                        </Link>
+                        <a href="#career" className={styles.link}>
+                        Career/ Partnership  <IoArrowForward />
+                        </a>
                     </div>
                 </div>
                 <div className={styles.right}>

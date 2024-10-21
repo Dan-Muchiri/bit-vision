@@ -21,10 +21,12 @@ function Featured() {
                     <p className={styles.leftP1}>Some work we are proud of</p>
                     <p className={styles.leftP}> Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs.</p>
                     <div className={styles.buttons}>
-                        <button className={styles.requestButton}>Request a proposal <IoArrowForward /></button>
-                        <Link to="/" className={styles.link}>
-                        See all work <IoArrowForward />
-                        </Link>
+                        <a href="#contact" className={styles.requestButton}>
+                            Request a proposal
+                        </a>
+                        <a href="#contact" className={styles.link}>
+                        Ask for work <IoArrowForward />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -47,7 +49,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +67,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +103,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +121,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +140,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +158,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +176,6 @@ function Featured() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className={styles.requestButton}>Case Study <IoArrowForward /></button>
                                 </div>
                             </div>
                         </div>

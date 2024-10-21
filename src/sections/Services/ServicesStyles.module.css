@@ -67,7 +67,7 @@
     flex-direction: column;
     gap: 25px;
 }
-.requestButton, .readButton {
+.requestButton, .readButton  {
     background-color: var(--base--primary);
     color: var(--text--text-light);
     border-radius: 1.5rem;
@@ -82,23 +82,17 @@
     border: none;
     position: relative; /* Make this button the relative parent */
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
+    text-decoration: none;
     display: flex;
-    gap: 25px;
-}
-.readButton{
-    background-color: #ffffff14;
 }
 
 .requestButton:hover {
     background-color: #0070cc;
-    gap: 30px;
 }
 
-.buttons a, .webLink {
+.link, .webLink{
     display: flex;
-    gap: 25px; /* Initial gap between text and icon */
+    gap: 35px; /* Initial gap between text and icon */
     text-decoration: none;
     color: black;
     justify-content: flex-start;
@@ -108,12 +102,22 @@
     font-size: 15px;
     transition: background-color .5s, border-bottom .5s, gap .5s; /* Add transition for gap */
     position: relative;
-    border-bottom: 1px solid #1413131f;
+    border-bottom: 1px solid #ffffff1f;
 }
 
-.buttons a:hover, .webLink:hover {
-    border-bottom: 1px solid black; /* Change border to white on hover */
-    gap: 30px; /* Increase gap on hover */
+.link:hover, .webLink:hover{
+    border-bottom: 1px solid white; /* Change border to white on hover */
+    gap: 40px; /* Increase gap on hover */
+}
+
+
+.readButton{
+    background-color: #ffffff14;
+}
+
+.requestButton:hover {
+    background-color: #0070cc;
+    gap: 30px;
 }
 
 .right{
@@ -243,6 +247,7 @@ background-color: #94ef00;
     line-height: 1.2em;
     margin-top: 0;
     margin-bottom: 0;
+    cursor: default;
 }
 .title a{
     font-weight: 600;
@@ -298,6 +303,7 @@ background-color: #94ef00;
     padding-right: .875rem;
     display: flex;
     position: relative;
+    cursor: default;
 }
 .separator{
     mix-blend-mode: normal;

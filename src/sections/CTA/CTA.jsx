@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 function CTA() {
   return (
     <section id="CTA" className={styles.container}>
-        <Link to="/" >
+        <a href="#contact" >
             <div className={styles.main}> 
                 <p>Let's get started with #YourVision</p>
             </div>
             <p className={styles.para}>We are Brand Vision, a Marketing Agency that will offer you transparency and creativity.</p>
-        </Link>
+        </a>
     </section>
   )
 }
