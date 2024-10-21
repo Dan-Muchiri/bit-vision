@@ -22,10 +22,12 @@ function Hero() {
               <h1>Award-Winning Marketing Agency</h1>
               <div className={styles.separator}></div>
               <div className={styles.buttons}>
-                <button className={styles.requestButton}>Request a proposal</button>
-                <Link to="/" className={styles.link}>
-                  Let's Discuss <IoArrowForward />
-                </Link>
+                <a href="#contact" className={styles.requestButton}>
+                      Request a proposal
+                </a>
+                <a href="#contact" className={styles.link}>
+                Let's Discuss <IoArrowForward />
+                </a>
               </div>
             </div>
             <div className={styles.rightWords}>

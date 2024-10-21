@@ -13,7 +13,7 @@ import lite from "/Lite 1.jpg"
 
 function Featured() {
   return (
-    <section id='Featured' className={styles.container}>
+    <section id='work' className={styles.container}>
         <div className={styles.wrapper}>
             <div className={styles.left}>
                 <div className={styles.titleBlock}>

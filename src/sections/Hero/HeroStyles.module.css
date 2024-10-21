@@ -148,13 +148,15 @@
     border: none;
     position: relative; /* Make this button the relative parent */
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
 }
 
 .requestButton:hover {
     background-color: #0070cc;
 }
 
-.buttons a {
+.link{
     display: flex;
     gap: 35px; /* Initial gap between text and icon */
     text-decoration: none;
@@ -169,7 +171,7 @@
     border-bottom: 1px solid #ffffff1f;
 }
 
-.buttons a:hover {
+.link{
     border-bottom: 1px solid white; /* Change border to white on hover */
     gap: 40px; /* Increase gap on hover */
 }

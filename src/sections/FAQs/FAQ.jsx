@@ -60,7 +60,7 @@ function FAQ() {
   ];
 
   return (
-    <section id='FAQ' className={styles.container}>
+    <section id='faqs' className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.left}>
           <div className={styles.titleBlock}>

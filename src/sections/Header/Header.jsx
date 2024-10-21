@@ -20,47 +20,42 @@ function Header() {
                 </div>
                 <div className={`${styles.navBlock} ${isMenuOpen ? styles.showMenu : ''}`}>
                     <nav className={styles.nav}>
-                        <Link to="/" onClick={toggleMenu}>Home</Link>
-                        <Link to="/services" onClick={toggleMenu}>Services<FaChevronDown size={12} /></Link>
-                        
+                        <a href="#hero" onClick={toggleMenu}>Home</a>
+                        <a href="#services" onClick={toggleMenu}>Services</a>
+
                         {/* About Dropdown */}
                         <div className={styles.dropdown}>
-                            <Link to="/" className={styles.dropdownLink}>
+                            <a href="#about" className={styles.dropdownLink}>
                                 About <FaChevronDown size={12} />
-                            </Link>
+                            </a>
                             <div className={styles.dropdownMenu}>
-                                <Link to="/about" onClick={toggleMenu}>About</Link>
-                                <Link to="/awards" onClick={toggleMenu}>Awards</Link>
-                                <Link to="/team" onClick={toggleMenu}>Team</Link>
+                                <a href="#clients" onClick={toggleMenu}>Clients/ Awards</a>
+                                <a href="#industries" onClick={toggleMenu}>Industries</a>
                             </div>
                         </div>
 
                         {/* Work */}
-                        <Link to="/work" onClick={toggleMenu}>Work</Link>
-                        <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+                        <a href="#work" onClick={toggleMenu}>Work</a>
+                        <a href="#contact" onClick={toggleMenu}>Contact</a>
 
                         {/* Resources Dropdown */}
                         <div className={styles.dropdown}>
-                            <Link to="/" className={styles.dropdownLink}>
+                            <a href="#resources" className={styles.dropdownLink}>
                                 Resources <FaChevronDown size={12} />
-                            </Link>
+                            </a>
                             <div className={styles.dropdownMenu}>
-                                <Link to="/services" onClick={toggleMenu}>Services</Link>
-                                <Link to="/insights" onClick={toggleMenu}>Insights</Link>
-                                <Link to="/faqs" onClick={toggleMenu}>FAQs</Link>
+                                <a href="#services" onClick={toggleMenu}>Services</a>
+                                <a href="#faqs" onClick={toggleMenu}>FAQs</a>
                             </div>
                         </div>
-
                     </nav>
                 </div>
 
                 <div className={`${styles.separator} ${isMenuOpen ? styles.showMenu : ''}`}></div>
-                <button className={`${styles.requestButton} ${isMenuOpen ? styles.showMenu : ''}`}>
+                {/* Request a proposal button */}
+                <a href="#contact" className={`${styles.requestButton} ${isMenuOpen ? styles.showMenu : ''}`}>
                     Request a proposal
-                </button>
-                <Link to="/insights" className={styles.insightsLink}>
-                    Bit Vision Insights
-                </Link>
+                </a>
 
                 <div className={styles.menuIcon} onClick={toggleMenu}>
                     {isMenuOpen ? <div className={styles.menu}>Close<FaTimes size={18} /></div> : <div className={styles.menu}>Menu<FaBars size={18} /></div>}

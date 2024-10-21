@@ -138,6 +138,8 @@
     border: none;
     position: relative; /* Make this button the relative parent */
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
 }
 
 .requestButton:hover {
