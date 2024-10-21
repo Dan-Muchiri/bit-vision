@@ -181,3 +181,136 @@
     line-height: 1.56em;
     margin: 0;
 }
+@media (max-width: 768px) {
+    .container {
+      padding-bottom: 2rem;
+      padding-top: 4rem;
+      max-width: 100vw; 
+      box-sizing: border-box;
+    }
+  
+    .wrapper {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      grid-column-gap: 1rem;
+      grid-row-gap: 1rem;
+      max-width: 100%;
+    }
+  
+    .title {
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .logoImage {
+      width: 40px; /* Adjust the size for smaller screens */
+    }
+  
+    .logoName {
+      font-size: 1.5rem; /* Adjust the font size for small screens */
+    }
+  
+    .pTitle {
+      font-size: 0.875rem; /* Smaller font for mobile */
+      max-width: 100%; /* Make sure the text adjusts for small screens */
+      text-align: center;
+    }
+  
+    .main {
+      flex-direction: column; /* Stack the columns vertically */
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+  
+    .list {
+      flex-direction: column;
+      margin-bottom: 1rem; /* Add spacing between sections */
+      flex-wrap: wrap;
+    }
+  
+    .list h3 {
+      font-size: 0.875rem; /* Smaller headings */
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+  
+    .list a, .list p {
+      font-size: 0.875rem;
+      height: auto;
+      margin-bottom: 0.5rem;
+    }
+  
+    .contactInfo {
+      justify-content: flex-start;
+    }
+  
+    .contactInfo img {
+      width: 16px; /* Slightly smaller icon */
+      height: 16px;
+    }
+  
+    .info {
+      font-size: 0.875rem;
+    }
+  
+    .collection {
+      flex-direction: column;
+      grid-template-columns: 1fr; /* Stack all the items in a single column */
+      grid-row-gap: 16px; /* Increase spacing */
+      text-align: center;
+    }
+  
+    .collection p {
+      font-size: 0.6rem; /* Adjust font size for small screens */
+      margin: 0;
+    }
+  
+    .separator {
+      width: 100%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .copy {
+      font-size: 0.75rem; /* Smaller font for the copyright text */
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logoImage {
+      width: 35px; /* Smaller logo for extra small screens */
+    }
+  
+    .logoName {
+      font-size: 1.25rem; /* Slightly smaller font */
+    }
+  
+    .pTitle {
+      font-size: 0.75rem; /* Even smaller text for readability */
+      line-height: 1.4em;
+    }
+  
+    .list h3 {
+      font-size: 0.75rem; /* Adjust headings for small screens */
+    }
+  
+    .list a, .list p {
+      font-size: 0.75rem;
+    }
+  
+    .info p {
+      font-size: 0.75rem;
+    }
+  
+    .collection p {
+      font-size: 0.6rem; /* Smaller font size for collection text */
+    }
+  
+    .copy {
+      font-size: 0.625rem; /* Smaller copyright text */
+    }
+  }
+  
