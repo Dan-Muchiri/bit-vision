@@ -10,6 +10,7 @@ import CTA from './sections/CTA/CTA';
 import FAQ from './sections/FAQs/FAQ';
 import Contact from './sections/Contact/Contact';
 import Career from './sections/Career/Career';
+import Footer from './sections/Footer/Footer';
 
 function App() {
  
@@ -27,6 +28,7 @@ function App() {
       <FAQ/>
       <Contact/>
       <Career/>
+      <Footer/>
     </Router>  
     </>
   )

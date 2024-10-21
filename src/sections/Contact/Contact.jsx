@@ -41,7 +41,7 @@ function Contact() {
                         <p className={styles.leftP}> Our goal is to nurture your vision and provide innovative, custom solutions for all your marketing needs.</p>
                     </div>
                     <div className={styles.careerBox}>
-                        <p>For all career / partnership opportunities, please visit our Careers section</p>
+                        <p>For all career / partnership opportunities, please visit our Careers page</p>
                         <Link to="/" className={styles.link}>
                             Career/ Partnership <IoArrowForward />
                         </Link>
