@@ -265,9 +265,10 @@
     }
 
     .dropdownMenu a {
-        padding: 1.5rem 0; /* Adjust padding for mobile */
+        padding: 1.5rem 1rem; /* Adjust padding for mobile */
         font-size: 16px; /* Adjust font size */
         text-align: center; /* Center the text */
         border-radius: 0; /* Ensure no border-radius */
+        color: black;
     }
 }
