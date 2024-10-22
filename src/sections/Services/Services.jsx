@@ -42,8 +42,8 @@ function Services() {
                                         </Link>
                                     </div>
                                     <div className={styles.para}>
-                                        <p>Every web design project at Brand Vision stands out as unique, receiving unparalleled attention and care. Our team, composed of award-winning web designers and web developers, is renowned for its ability to craft visually striking websites. These sites are not only a feast for the eyes but also excel in functionality, effectively meeting their intended objectives.</p>
-                                        <p>No matter if your requirement is a straightforward informational website or a sophisticated e-commerce platform, our profound expertise ensures we can elevate your brand's online presence remarkably. Trust us to sculpt the ideal online presentation for your business, where web design meets innovation and practicality. Let Brand Vision be your guide in navigating the digital landscape, making your brand shine brightly in the competitive online arena.</p>
+                                        <p>Every web design project at Bit Vision stands out as unique, receiving unparalleled attention and care. Our team, composed of award-winning web designers and web developers, is renowned for its ability to craft visually striking websites. These sites are not only a feast for the eyes but also excel in functionality, effectively meeting their intended objectives.</p>
+                                        <p>No matter if your requirement is a straightforward informational website or a sophisticated e-commerce platform, our profound expertise ensures we can elevate your brand's online presence remarkably. Trust us to sculpt the ideal online presentation for your business, where web design meets innovation and practicality. Let Bit Vision be your guide in navigating the digital landscape, making your brand shine brightly in the competitive online arena.</p>
                                     </div>
                                 </div>
                                 <div className={styles.serviceTags}>
@@ -73,6 +73,88 @@ function Services() {
                                     </a>
                                 </div>
                             </div>
+                            <div className={styles.serviceBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title}>
+                                        <div className={styles.indicator}></div>
+                                        <Link to="/" className={styles.link}>
+                                            AI Chatbot Development
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>At Bit Vision, our AI Chatbot Development services are designed to bring intelligent, conversational interfaces to your business. Whether you need a customer service bot, a conversational agent for e-commerce, or any other AI-powered solution, we deliver customized bots that enhance user experience and streamline interactions.</p>
+                                        <p>Our expert team builds chatbots that are not only intelligent but also user-friendly, seamlessly integrating into your business processes. Harness the power of AI to automate routine tasks, respond to inquiries in real-time, and provide 24/7 customer support. Let Bit Vision help you engage your audience through the next generation of conversational AI.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.serviceTags}>
+                                    <Link to="/" >
+                                        NATURAL LANGUAGE PROCESSING
+                                    </Link>
+                                    <Link to="/" >
+                                        MACHINE LEARNING
+                                    </Link>
+                                    <Link to="/" >
+                                        INTEGRATIONS
+                                    </Link>
+                                    <Link to="/" >
+                                        AUTOMATION
+                                    </Link>
+                                    <Link to="/" >
+                                        AI TRAINING
+                                    </Link>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <a href="#contact" className={styles.webLink}>
+                                        AI Chatbot Development <IoArrowForward />
+                                    </a>
+                                    <a href="#work" className={styles.workLink}>
+                                        VIEW OUR WORK <IoArrowForward />
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className={styles.serviceBox}>
+                                <div className={styles.boxMain}>
+                                    <div className={styles.title}>
+                                        <div className={styles.indicator}></div>
+                                        <Link to="/" className={styles.link}>
+                                            Voice Bot Development
+                                        </Link>
+                                    </div>
+                                    <div className={styles.para}>
+                                        <p>Our Voice Bot Development services at Bit Vision revolutionize customer interactions with advanced voice recognition and processing technology. From Alexa and Google Assistant to custom voice interfaces, we design and develop voice bots that understand and respond to user commands accurately.</p>
+                                        <p>Perfect for businesses seeking hands-free, efficient interaction channels, our voice bots allow users to navigate your services seamlessly. Whether for customer support, smart home applications, or interactive voice response (IVR) systems, we ensure your brand's voice is heard clearly and effectively.</p>
+                                    </div>
+                                </div>
+                                <div className={styles.serviceTags}>
+                                    <Link to="/" >
+                                        VOICE RECOGNITION
+                                    </Link>
+                                    <Link to="/" >
+                                        NATURAL LANGUAGE PROCESSING
+                                    </Link>
+                                    <Link to="/" >
+                                        VIRTUAL ASSISTANT
+                                    </Link>
+                                    <Link to="/" >
+                                        MULTI-PLATFORM INTEGRATION
+                                    </Link>
+                                    <Link to="/" >
+                                        AUTOMATION
+                                    </Link>
+                                </div>
+                                <div className={styles.separator}></div>
+                                <div className={styles.cta}>
+                                    <a href="#contact" className={styles.webLink}>
+                                        Voice Bot Development <IoArrowForward />
+                                    </a>
+                                    <a href="#work" className={styles.workLink}>
+                                        VIEW OUR WORK <IoArrowForward />
+                                    </a>
+                                </div>
+                            </div>
+
                             <div className={styles.serviceBox}>
                                 <div className={styles.boxMain}>
                                     <div className={styles.title2}>
