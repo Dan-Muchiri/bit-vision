@@ -48,13 +48,16 @@ function Services() {
                                 </div>
                                 <div className={styles.serviceTags}>
                                     <Link to="/" >
-                                        WORDPRESS
-                                    </Link>
-                                    <Link to="/" >
-                                        WEBFLOW
+                                        RESPONSIVE DESIGN
                                     </Link>
                                     <Link to="/" >
                                         UI/UX
+                                    </Link>
+                                    <Link to="/" >
+                                    API DEVELOPMENT
+                                    </Link>
+                                    <Link to="/" >
+                                        DATABASES
                                     </Link>
                                     <Link to="/" >
                                         CUSTOM DESIGN

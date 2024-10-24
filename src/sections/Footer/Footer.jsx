@@ -52,7 +52,7 @@ function Footer() {
               <img src={map} alt='Map icon'/>
               <div className={styles.info}>
                 <p>Suite 120 - 2005 Sheppard Ave E,</p> 
-                <p>North York, ON M2J 5B4</p>
+                <p>Nairobi</p>
               </div>
             </div>
             <br />
@@ -60,33 +60,27 @@ function Footer() {
               <img src={map} alt='Map icon'/>
               <div className={styles.info}>
                 <p>30 N Michigan Ave, Suite 504</p> 
-                <p>Chicago, IL 60602, USA</p>
+                <p>Cape Town</p>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.separator}></div>
         <div className={styles.collection}>
-          <p>San Francisco</p>
-          <p>Dallas</p>
-          <p>Washington</p>
-          <p>Montreal</p>
-          <p>Los Angeles</p>
-          <p>New York</p>
-          <p>Houston</p>
-          <p>Chicago</p>
-          <p>Vancouver</p>
-          <p>Toronto</p>
+          <p>Cairo</p>
+          <p>Nairobi</p>
+          <p>Johannesburg</p>
+          <p>Manchester</p>
+          <p>Lagos</p>
+          <p>Cape Town</p>
         </div>
         <div className={styles.separator}></div>
         <div className={styles.collection}>
-          <p>Web Design Toronto</p>
-          <p>Web Design San Diego</p>
-          <p>Web Design San Francisco</p>
-          <p>Web Design Chicago</p>
-          <p>Web Design New York</p>
-          <p>Web Design Houston</p>
-          <p>Web Design Montreal</p>
+          <p>Web Design Cairo</p>
+          <p>Web Design Lagos</p>
+          <p>Web Design Cape Town</p>
+          <p>Web Design Nairobi</p>
+          <p>Web Design Johannesburg</p>
         </div>
         <div className={styles.separator}></div>
         <p className={styles.copy}>© All Copyright Reserved by Bit Vision Marketing.</p>

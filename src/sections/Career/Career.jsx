@@ -42,7 +42,7 @@ function Career() {
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <form action="" method="post" className={styles.formContainer} onSubmit={handleSubmit}>
+                    <form action="https://formspree.io/f/xovqvyld" method="post" className={styles.formContainer} onSubmit={handleSubmit}>
                         <div className={styles.formGroup}>
                             <label htmlFor="fullName">Full Name<span className={styles.required}>*</span></label>
                             <input

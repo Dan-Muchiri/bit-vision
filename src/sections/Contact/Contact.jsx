@@ -48,7 +48,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <form action="" method="post" className={styles.formContainer} onSubmit={handleSubmit}>
+                    <form action="https://formspree.io/f/mldedale" method="post" className={styles.formContainer} onSubmit={handleSubmit}>
                         <div className={styles.formGroup}>
                             <label htmlFor="firstName">First Name<span className={styles.required}>*</span></label>
                             <input
@@ -102,6 +102,8 @@ function Contact() {
                                 <option value="" disabled selected>Please Select</option>
                                 <option value="Website Design">Website Design</option>
                                 <option value="Branding">Branding</option>
+                                <option value="AI Chatbot Development">AI Chatbot Development</option>
+                                <option value="Voicebot Development">Voicebot Development</option>
                                 <option value="Branding & Website Design">Branding & Website Design</option>
                                 <option value="SEO">SEO</option>
                                 <option value="UI/UX">UI/UX</option>
