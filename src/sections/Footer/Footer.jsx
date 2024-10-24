@@ -70,12 +70,14 @@ function Footer() {
           <p>Cairo</p>
           <p>Nairobi</p>
           <p>Johannesburg</p>
+          <p>Dubai</p>
           <p>Manchester</p>
           <p>Lagos</p>
           <p>Cape Town</p>
         </div>
         <div className={styles.separator}></div>
         <div className={styles.collection}>
+        <p>Web Design Dubai</p>
           <p>Web Design Cairo</p>
           <p>Web Design Lagos</p>
           <p>Web Design Cape Town</p>

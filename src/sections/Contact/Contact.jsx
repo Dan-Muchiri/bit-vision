@@ -138,15 +138,13 @@ function Contact() {
                                 className={touchedFields.budget && !document.getElementById('budget').value ? styles.invalid : ''}
                             >
                                 <option value="" disabled selected>Please Select</option>
-                                <option value="budget1">$2k - $5k</option>
-                                <option value="budget2">$5k - $15k</option>
-                                <option value="budget3">$15k - $30k</option>
-                                <option value="budget4">$30k - $50k</option>
-                                <option value="budget5">$50k - $100k</option>
-                                <option value="budget6">$100k - $200k</option>
-                                <option value="budget7">$200k - $500k</option>
-                                <option value="budget8">$500k+</option>
-                                <option value="budget9">Undecided</option>
+                                <option value="budget1">0 - $200</option>
+                                <option value="budget1">$200 - $500</option>
+                                <option value="budget2">$500 - $1k</option>
+                                <option value="budget3">$1k - $2k</option>
+                                <option value="budget4">$2k - $5k</option>
+                                <option value="budget5">$5k+</option>
+                                <option value="budget6">Undecided</option>
                             </select>
                         </div>
                         <div className={styles.formGroup}>
