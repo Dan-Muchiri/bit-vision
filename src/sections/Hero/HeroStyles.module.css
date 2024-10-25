@@ -69,6 +69,7 @@
     position: relative;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 2%;
 }
 
 .contentWrapper {
@@ -180,6 +181,9 @@
 
 /* Media query to hide the rightWords section on smaller screens */
 @media (max-width: 765px) {
+    .heroContent{
+        padding-bottom: 8%;
+    }
     .rightWords {
         display: none; /* Hide the rightWords section */
     }
